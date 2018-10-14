@@ -1,0 +1,1823 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/zhang/ontologies/2018/8/DSR-ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/zhang/ontologies/2018/8/DSR-ontology">
+    <Prefix name="" IRI="http://www.semanticweb.org/zhang/ontologies/2018/8/DSR-ontology"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Functions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClassesOfRisks"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CorresponseTo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Philosophy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RiskManagement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StakeholderAnalysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#clients"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FormativeEvaluation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Questionnaire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArtefactDomain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NotSafetyCritical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Theory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SolutionRequirementsModelling"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SDRM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProblemAnalysisTechniques"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HumanRiskAndEffectiveness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Library"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Outputs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PrototypeDemonstration"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DynamicAnalysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ResearchUndertaking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Software"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Analytic/ComputerSimulation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Criteria-Based"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrinciplesOfFunctions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Avoidance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PilotStudy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IncludesIn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArtefactDisseminationAndUse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#QuantitiveSurvey/Questionnaire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CommercialBackground"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artefact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EvaluationStrategies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DSRPM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Traning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DailyUse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProblemDefinition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MethodologyType"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ExPostDesriptions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#person"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OptimizationAnalysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Participants"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Explains"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rigor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GoalModelling"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OpinionAndPersonalExperience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Practice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ethics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocioTechnicalRisks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArtefactMutability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DataCollection"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasEffciencyIn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OpinionAndExample"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Techniques"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NaturalisticEvaluation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Research"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#developers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transfer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iconic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BuildPurposefulArtefacts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PurposeAndScope"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SafetyCritical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DocumentReview"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PurelyTechnical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Objectivist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DesignTheory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ScenariosMethod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeneralDesign"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IndividualInterview"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialParticipation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MetaLevelTheory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#StaticAnalysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Classification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Verbal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PADR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NatureOfArtefactsDimension"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KnowledgeAdditions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Self-Insure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Self-protect"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ResolveRiskBy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrimaryData"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FieldExperiment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grounding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProductArtefct"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#RequiredBy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HelpService"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FocusGroup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paradigm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FormReview"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#RequireFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ResponseTo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Constructs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeneralRequirement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SecondaryData"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ParticipantObservation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasUtilityFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasSatisfied"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GroupFacilitation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BusinessNeeds"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DSRM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DelphiStudy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#BasedOn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interview"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ITsystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#priority"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MethodologyFramework"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FieldStudy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProcessArtefact"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GroundedTheory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JustificatoryKnowledge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SafetyRisks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProblemAnalysis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BlackBoxTesting"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PositivistCaseStudy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Documentation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StakeholderClasses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Obejectives"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SummativeEvaluation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QuantitativeMethod"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ContributeTo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TechnicalRiskAndEfficacy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ethnography"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProblemElicitation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Achieve"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CreatedValuesFor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#InterpretiveCaseStudy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Analytic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DevelopmentOfISInstruments"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#HasProbabilityOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Modelling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Evaluation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ThinkAloudProtocolAnalysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CausalAnalysis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Phenomenology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Background"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PureTechnical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocioTechnical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stakeholders"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserBase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrincipleOfForm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Subjectivist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AcademicBackground"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QuickAndSimple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TestablePropositions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Efficiency"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SDSM"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#TheConsequencesOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Support"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ADR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#QualitativeSurvey/Questionnaire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ContextModelling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClassesOfRiskTreatments"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EvaluateAndJustify"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Observation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KernelTheory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Simulation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Problem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GroupInterview"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Goal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArtficialEvaluation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ArchitectureAnalysis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Game/RolePlayingSimulation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SecondaryData"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Benefit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Forecasting"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Scenarios"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EvaluationType"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TheoremProof"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Components"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ActionResearch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LaboratoryExperiment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TechnicalRisks"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasEffctivenessIn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WhiteBoxTesting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QualitativeMethod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Consultancy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Evaluate"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AcademicBackground"/>
+        <Class IRI="#Background"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Analytic"/>
+        <Class IRI="#Model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArtefactDisseminationAndUse"/>
+        <Class IRI="#ClassesOfRisks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArtefactDomain"/>
+        <Class IRI="#Philosophy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArtefactMutability"/>
+        <Class IRI="#GeneralDesign"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArtficialEvaluation"/>
+        <Class IRI="#EvaluationType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avoidance"/>
+        <Class IRI="#ClassesOfRiskTreatments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Background"/>
+        <Class IRI="#Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BuildPurposefulArtefacts"/>
+        <Class IRI="#ClassesOfRisks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BusinessNeeds"/>
+        <Class IRI="#ClassesOfRisks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CausalAnalysis"/>
+        <Class IRI="#ProblemAnalysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClassesOfRiskTreatments"/>
+        <Class IRI="#RiskManagement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClassesOfRisks"/>
+        <Class IRI="#RiskManagement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Classification"/>
+        <Class IRI="#ProblemAnalysisTechniques"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CommercialBackground"/>
+        <Class IRI="#Background"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Components"/>
+        <Class IRI="#GeneralDesign"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Constructs"/>
+        <Class IRI="#GeneralRequirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Consultancy"/>
+        <Class IRI="#Product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ContextModelling"/>
+        <Class IRI="#Modelling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DailyUse"/>
+        <Class IRI="#Objectivist"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataCollection"/>
+        <Class IRI="#ProblemElicitation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DesignTheory"/>
+        <Class IRI="#Objectivist"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DocumentReview"/>
+        <Class IRI="#SecondaryData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Documentation"/>
+        <Class IRI="#Product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Efficiency"/>
+        <Class IRI="#Goal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ethics"/>
+        <Class IRI="#Goal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EvaluateAndJustify"/>
+        <Class IRI="#ClassesOfRisks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EvaluationStrategies"/>
+        <Class IRI="#Evaluation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EvaluationType"/>
+        <Class IRI="#Evaluation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FormReview"/>
+        <Class IRI="#SecondaryData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FormativeEvaluation"/>
+        <Class IRI="#EvaluationType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Functions"/>
+        <Class IRI="#GeneralRequirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeneralDesign"/>
+        <Class IRI="#Theory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeneralRequirement"/>
+        <Class IRI="#Theory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Goal"/>
+        <Class IRI="#Evaluation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Goal"/>
+        <Class IRI="#Philosophy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GoalModelling"/>
+        <Class IRI="#Modelling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grounding"/>
+        <Class IRI="#ClassesOfRisks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GroupFacilitation"/>
+        <Class IRI="#SecondaryData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HelpService"/>
+        <Class IRI="#Product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HumanRiskAndEffectiveness"/>
+        <Class IRI="#EvaluationStrategies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ITsystem"/>
+        <Class IRI="#Objectivist"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iconic"/>
+        <Class IRI="#Model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interview"/>
+        <Class IRI="#PrimaryData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JustificatoryKnowledge"/>
+        <Class IRI="#GeneralDesign"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KernelTheory"/>
+        <Class IRI="#Theory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KnowledgeAdditions"/>
+        <Class IRI="#ClassesOfRisks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Library"/>
+        <Class IRI="#SecondaryData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetaLevelTheory"/>
+        <Class IRI="#Subjectivist"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MethodologyFramework"/>
+        <Class IRI="#Artefact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MethodologyType"/>
+        <Class IRI="#MethodologyFramework"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Model"/>
+        <Class IRI="#MethodologyFramework"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Modelling"/>
+        <Class IRI="#ProblemAnalysisTechniques"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NaturalisticEvaluation"/>
+        <Class IRI="#EvaluationType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NatureOfArtefactsDimension"/>
+        <Class IRI="#Artefact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NotSafetyCritical"/>
+        <Class IRI="#NatureOfArtefactsDimension"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Obejectives"/>
+        <Class IRI="#Philosophy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Objectivist"/>
+        <Class IRI="#MethodologyType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Observation"/>
+        <Class IRI="#PrimaryData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Outputs"/>
+        <Class IRI="#MethodologyFramework"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paradigm"/>
+        <Class IRI="#Philosophy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Participants"/>
+        <Class IRI="#Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Philosophy"/>
+        <Class IRI="#MethodologyFramework"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Practice"/>
+        <Class IRI="#MethodologyFramework"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrimaryData"/>
+        <Class IRI="#DataCollection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrincipleOfForm"/>
+        <Class IRI="#GeneralDesign"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrinciplesOfFunctions"/>
+        <Class IRI="#GeneralDesign"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProblemAnalysis"/>
+        <Class IRI="#Problem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProblemAnalysisTechniques"/>
+        <Class IRI="#ProblemAnalysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProblemDefinition"/>
+        <Class IRI="#ProblemAnalysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProblemElicitation"/>
+        <Class IRI="#Problem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProcessArtefact"/>
+        <Class IRI="#NatureOfArtefactsDimension"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Product"/>
+        <Class IRI="#MethodologyFramework"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProductArtefct"/>
+        <Class IRI="#NatureOfArtefactsDimension"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PureTechnical"/>
+        <Class IRI="#NatureOfArtefactsDimension"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PurelyTechnical"/>
+        <Class IRI="#EvaluationStrategies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PurposeAndScope"/>
+        <Class IRI="#GeneralRequirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QualitativeMethod"/>
+        <Class IRI="#FormativeEvaluation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QualitativeMethod"/>
+        <Class IRI="#SummativeEvaluation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QuantitativeMethod"/>
+        <Class IRI="#FormativeEvaluation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QuantitativeMethod"/>
+        <Class IRI="#SummativeEvaluation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Questionnaire"/>
+        <Class IRI="#PrimaryData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QuickAndSimple"/>
+        <Class IRI="#EvaluationStrategies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Research"/>
+        <Class IRI="#PrimaryData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ResearchUndertaking"/>
+        <Class IRI="#Subjectivist"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rigor"/>
+        <Class IRI="#Goal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RiskManagement"/>
+        <Class IRI="#Evaluation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SafetyCritical"/>
+        <Class IRI="#NatureOfArtefactsDimension"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SafetyRisks"/>
+        <Class IRI="#RiskManagement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SecondaryData"/>
+        <Class IRI="#DataCollection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Self-Insure"/>
+        <Class IRI="#ClassesOfRiskTreatments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Self-protect"/>
+        <Class IRI="#ClassesOfRiskTreatments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Simulation"/>
+        <Class IRI="#Model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialParticipation"/>
+        <Class IRI="#Subjectivist"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocioTechnical"/>
+        <Class IRI="#NatureOfArtefactsDimension"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocioTechnicalRisks"/>
+        <Class IRI="#RiskManagement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Software"/>
+        <Class IRI="#Product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SolutionRequirementsModelling"/>
+        <Class IRI="#Modelling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StakeholderAnalysis"/>
+        <Class IRI="#ProblemAnalysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StakeholderClasses"/>
+        <Class IRI="#Classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Subjectivist"/>
+        <Class IRI="#MethodologyType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SummativeEvaluation"/>
+        <Class IRI="#EvaluationType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TechnicalRiskAndEfficacy"/>
+        <Class IRI="#EvaluationStrategies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TechnicalRisks"/>
+        <Class IRI="#RiskManagement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Techniques"/>
+        <Class IRI="#MethodologyFramework"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TestablePropositions"/>
+        <Class IRI="#GeneralDesign"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Traning"/>
+        <Class IRI="#Product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transfer"/>
+        <Class IRI="#ClassesOfRiskTreatments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserBase"/>
+        <Class IRI="#Practice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Verbal"/>
+        <Class IRI="#Model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#clients"/>
+        <Class IRI="#person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#developers"/>
+        <Class IRI="#person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#priority"/>
+        <Class IRI="#Evaluation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stakeholders"/>
+        <Class IRI="#person"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#AcademicBackground"/>
+        <Class IRI="#CommercialBackground"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Analytic"/>
+        <Class IRI="#Iconic"/>
+        <Class IRI="#Simulation"/>
+        <Class IRI="#Verbal"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Artefact"/>
+        <Class IRI="#Evaluation"/>
+        <Class IRI="#Problem"/>
+        <Class IRI="#Theory"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ArtefactMutability"/>
+        <Class IRI="#Constructs"/>
+        <Class IRI="#Functions"/>
+        <Class IRI="#GeneralDesign"/>
+        <Class IRI="#GeneralRequirement"/>
+        <Class IRI="#JustificatoryKnowledge"/>
+        <Class IRI="#PrincipleOfForm"/>
+        <Class IRI="#PurposeAndScope"/>
+        <Class IRI="#TestablePropositions"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ArtefactMutability"/>
+        <Class IRI="#Constructs"/>
+        <Class IRI="#Functions"/>
+        <Class IRI="#JustificatoryKnowledge"/>
+        <Class IRI="#PrincipleOfForm"/>
+        <Class IRI="#PurposeAndScope"/>
+        <Class IRI="#TestablePropositions"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Background"/>
+        <Class IRI="#Participants"/>
+        <Class IRI="#UserBase"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Consultancy"/>
+        <Class IRI="#Documentation"/>
+        <Class IRI="#HelpService"/>
+        <Class IRI="#Software"/>
+        <Class IRI="#Traning"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DailyUse"/>
+        <Class IRI="#DesignTheory"/>
+        <Class IRI="#ITsystem"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HumanRiskAndEffectiveness"/>
+        <Class IRI="#PurelyTechnical"/>
+        <Class IRI="#QuickAndSimple"/>
+        <Class IRI="#TechnicalRiskAndEfficacy"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MetaLevelTheory"/>
+        <Class IRI="#ResearchUndertaking"/>
+        <Class IRI="#SocialParticipation"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MethodologyType"/>
+        <Class IRI="#Model"/>
+        <Class IRI="#Outputs"/>
+        <Class IRI="#Philosophy"/>
+        <Class IRI="#Practice"/>
+        <Class IRI="#Product"/>
+        <Class IRI="#Techniques"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Model"/>
+        <Class IRI="#Philosophy"/>
+        <Class IRI="#Techniques"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#NotSafetyCritical"/>
+        <Class IRI="#SafetyCritical"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Objectivist"/>
+        <Class IRI="#Subjectivist"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#PrimaryData"/>
+        <Class IRI="#SecondaryData"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#QualitativeMethod"/>
+        <Class IRI="#QuantitativeMethod"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#ResearchUndertaking"/>
+        <NamedIndividual IRI="#ADR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ArtficialEvaluation"/>
+        <NamedIndividual IRI="#ActionResearch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FormativeEvaluation"/>
+        <NamedIndividual IRI="#ActionResearch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NaturalisticEvaluation"/>
+        <NamedIndividual IRI="#ActionResearch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SummativeEvaluation"/>
+        <NamedIndividual IRI="#ActionResearch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ArtficialEvaluation"/>
+        <NamedIndividual IRI="#ArchitectureAnalysis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FormativeEvaluation"/>
+        <NamedIndividual IRI="#ArchitectureAnalysis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SummativeEvaluation"/>
+        <NamedIndividual IRI="#ArchitectureAnalysis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ArtficialEvaluation"/>
+        <NamedIndividual IRI="#BlackBoxTesting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FormativeEvaluation"/>
+        <NamedIndividual IRI="#BlackBoxTesting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SummativeEvaluation"/>
+        <NamedIndividual IRI="#BlackBoxTesting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ArtficialEvaluation"/>
+        <NamedIndividual IRI="#Criteria-Based"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FormativeEvaluation"/>
+        <NamedIndividual IRI="#Criteria-Based"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SummativeEvaluation"/>
+        <NamedIndividual IRI="#Criteria-Based"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DailyUse"/>
+        <NamedIndividual IRI="#DSRM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DesignTheory"/>
+        <NamedIndividual IRI="#DSRPM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ArtficialEvaluation"/>
+        <NamedIndividual IRI="#DelphiStudy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NaturalisticEvaluation"/>
+        <NamedIndividual IRI="#DelphiStudy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SummativeEvaluation"/>
+        <NamedIndividual IRI="#DelphiStudy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ArtficialEvaluation"/>
+        <NamedIndividual IRI="#DynamicAnalysis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FormativeEvaluation"/>
+        <NamedIndividual IRI="#DynamicAnalysis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SummativeEvaluation"/>
+        <NamedIndividual IRI="#DynamicAnalysis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NaturalisticEvaluation"/>
+        <NamedIndividual IRI="#Ethnography"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SummativeEvaluation"/>
+        <NamedIndividual IRI="#Ethnography"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NaturalisticEvaluation"/>
+        <NamedIndividual IRI="#ExPostDesriptions"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SummativeEvaluation"/>
+        <NamedIndividual IRI="#ExPostDesriptions"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ArtficialEvaluation"/>
+        <NamedIndividual IRI="#FieldExperiment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FormativeEvaluation"/>
+        <NamedIndividual IRI="#FieldExperiment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NaturalisticEvaluation"/>
+        <NamedIndividual IRI="#FieldExperiment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SummativeEvaluation"/>
+        <NamedIndividual IRI="#FieldExperiment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FormativeEvaluation"/>
+        <NamedIndividual IRI="#FieldStudy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NaturalisticEvaluation"/>
+        <NamedIndividual IRI="#FieldStudy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SummativeEvaluation"/>
+        <NamedIndividual IRI="#FieldStudy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ArtficialEvaluation"/>
+        <NamedIndividual IRI="#FocusGroup"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FormativeEvaluation"/>
+        <NamedIndividual IRI="#FocusGroup"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NaturalisticEvaluation"/>
+        <NamedIndividual IRI="#FocusGroup"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SummativeEvaluation"/>
+        <NamedIndividual IRI="#FocusGroup"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ArtficialEvaluation"/>
+        <NamedIndividual IRI="#GroupInterview"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FormativeEvaluation"/>
+        <NamedIndividual IRI="#GroupInterview"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NaturalisticEvaluation"/>
+        <NamedIndividual IRI="#GroupInterview"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SummativeEvaluation"/>
+        <NamedIndividual IRI="#GroupInterview"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ArtficialEvaluation"/>
+        <NamedIndividual IRI="#IndividualInterview"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FormativeEvaluation"/>
+        <NamedIndividual IRI="#IndividualInterview"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NaturalisticEvaluation"/>
+        <NamedIndividual IRI="#IndividualInterview"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SummativeEvaluation"/>
+        <NamedIndividual IRI="#IndividualInterview"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FormativeEvaluation"/>
+        <NamedIndividual IRI="#InterpretiveCaseStudy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NaturalisticEvaluation"/>
+        <NamedIndividual IRI="#InterpretiveCaseStudy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SummativeEvaluation"/>
+        <NamedIndividual IRI="#InterpretiveCaseStudy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ArtficialEvaluation"/>
+        <NamedIndividual IRI="#LaboratoryExperiment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FormativeEvaluation"/>
+        <NamedIndividual IRI="#LaboratoryExperiment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SummativeEvaluation"/>
+        <NamedIndividual IRI="#LaboratoryExperiment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ArtficialEvaluation"/>
+        <NamedIndividual IRI="#OpinionAndExample"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FormativeEvaluation"/>
+        <NamedIndividual IRI="#OpinionAndExample"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SummativeEvaluation"/>
+        <NamedIndividual IRI="#OpinionAndExample"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ArtficialEvaluation"/>
+        <NamedIndividual IRI="#OpinionAndPersonalExperience"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FormativeEvaluation"/>
+        <NamedIndividual IRI="#OpinionAndPersonalExperience"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SummativeEvaluation"/>
+        <NamedIndividual IRI="#OpinionAndPersonalExperience"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ArtficialEvaluation"/>
+        <NamedIndividual IRI="#OptimizationAnalysis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FormativeEvaluation"/>
+        <NamedIndividual IRI="#OptimizationAnalysis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SummativeEvaluation"/>
+        <NamedIndividual IRI="#OptimizationAnalysis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SocialParticipation"/>
+        <NamedIndividual IRI="#PADR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ArtficialEvaluation"/>
+        <NamedIndividual IRI="#ParticipantObservation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FormativeEvaluation"/>
+        <NamedIndividual IRI="#ParticipantObservation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NaturalisticEvaluation"/>
+        <NamedIndividual IRI="#ParticipantObservation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SummativeEvaluation"/>
+        <NamedIndividual IRI="#ParticipantObservation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NaturalisticEvaluation"/>
+        <NamedIndividual IRI="#Phenomenology"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SummativeEvaluation"/>
+        <NamedIndividual IRI="#Phenomenology"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FormativeEvaluation"/>
+        <NamedIndividual IRI="#PilotStudy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NaturalisticEvaluation"/>
+        <NamedIndividual IRI="#PilotStudy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SummativeEvaluation"/>
+        <NamedIndividual IRI="#PilotStudy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NaturalisticEvaluation"/>
+        <NamedIndividual IRI="#PositivistCaseStudy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SummativeEvaluation"/>
+        <NamedIndividual IRI="#PositivistCaseStudy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ArtficialEvaluation"/>
+        <NamedIndividual IRI="#PrototypeDemonstration"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FormativeEvaluation"/>
+        <NamedIndividual IRI="#PrototypeDemonstration"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SummativeEvaluation"/>
+        <NamedIndividual IRI="#PrototypeDemonstration"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ITsystem"/>
+        <NamedIndividual IRI="#SDRM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MetaLevelTheory"/>
+        <NamedIndividual IRI="#SDSM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ArtficialEvaluation"/>
+        <NamedIndividual IRI="#Scenarios"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FormativeEvaluation"/>
+        <NamedIndividual IRI="#Scenarios"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SummativeEvaluation"/>
+        <NamedIndividual IRI="#Scenarios"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NaturalisticEvaluation"/>
+        <NamedIndividual IRI="#SecondaryData"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SummativeEvaluation"/>
+        <NamedIndividual IRI="#SecondaryData"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ArtficialEvaluation"/>
+        <NamedIndividual IRI="#StaticAnalysis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FormativeEvaluation"/>
+        <NamedIndividual IRI="#StaticAnalysis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SummativeEvaluation"/>
+        <NamedIndividual IRI="#StaticAnalysis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ArtficialEvaluation"/>
+        <NamedIndividual IRI="#TheoremProof"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FormativeEvaluation"/>
+        <NamedIndividual IRI="#TheoremProof"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SummativeEvaluation"/>
+        <NamedIndividual IRI="#TheoremProof"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ArtficialEvaluation"/>
+        <NamedIndividual IRI="#ThinkAloudProtocolAnalysis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FormativeEvaluation"/>
+        <NamedIndividual IRI="#ThinkAloudProtocolAnalysis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NaturalisticEvaluation"/>
+        <NamedIndividual IRI="#ThinkAloudProtocolAnalysis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SummativeEvaluation"/>
+        <NamedIndividual IRI="#ThinkAloudProtocolAnalysis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ArtficialEvaluation"/>
+        <NamedIndividual IRI="#WhiteBoxTesting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FormativeEvaluation"/>
+        <NamedIndividual IRI="#WhiteBoxTesting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SummativeEvaluation"/>
+        <NamedIndividual IRI="#WhiteBoxTesting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ArtficialEvaluation"/>
+        <NamedIndividual IRI="#Analytic/ComputerSimulation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FormativeEvaluation"/>
+        <NamedIndividual IRI="#Analytic/ComputerSimulation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SummativeEvaluation"/>
+        <NamedIndividual IRI="#Analytic/ComputerSimulation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ArtficialEvaluation"/>
+        <NamedIndividual IRI="#Game/RolePlayingSimulation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FormativeEvaluation"/>
+        <NamedIndividual IRI="#Game/RolePlayingSimulation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SummativeEvaluation"/>
+        <NamedIndividual IRI="#Game/RolePlayingSimulation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ArtficialEvaluation"/>
+        <NamedIndividual IRI="#QualitativeSurvey/Questionnaire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FormativeEvaluation"/>
+        <NamedIndividual IRI="#QualitativeSurvey/Questionnaire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NaturalisticEvaluation"/>
+        <NamedIndividual IRI="#QualitativeSurvey/Questionnaire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SummativeEvaluation"/>
+        <NamedIndividual IRI="#QualitativeSurvey/Questionnaire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ArtficialEvaluation"/>
+        <NamedIndividual IRI="#QuantitiveSurvey/Questionnaire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FormativeEvaluation"/>
+        <NamedIndividual IRI="#QuantitiveSurvey/Questionnaire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NaturalisticEvaluation"/>
+        <NamedIndividual IRI="#QuantitiveSurvey/Questionnaire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SummativeEvaluation"/>
+        <NamedIndividual IRI="#QuantitiveSurvey/Questionnaire"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Achieve"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#BasedOn"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Benefit"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ContributeTo"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#CorresponseTo"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#CreatedValuesFor"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Evaluate"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Explains"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#HasEffciencyIn"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#HasEffctivenessIn"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#HasSatisfied"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#HasUtilityFor"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#IncludesIn"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#RequireFor"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#RequiredBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ResponseTo"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Support"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Explains"/>
+        <ObjectProperty IRI="#HasUtilityFor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#RequireFor"/>
+        <ObjectProperty IRI="#RequiredBy"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Achieve"/>
+        <Class IRI="#SummativeEvaluation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Benefit"/>
+        <Class IRI="#Product"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ContributeTo"/>
+        <Class IRI="#Problem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ContributeTo"/>
+        <Class IRI="#stakeholders"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CorresponseTo"/>
+        <Class IRI="#KernelTheory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CreatedValuesFor"/>
+        <Class IRI="#stakeholders"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Explains"/>
+        <Class IRI="#GeneralRequirement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasSatisfied"/>
+        <Class IRI="#stakeholders"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasUtilityFor"/>
+        <Class IRI="#GeneralRequirement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#RequireFor"/>
+        <Class IRI="#stakeholders"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#RequiredBy"/>
+        <Class IRI="#Functions"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ResolveRiskBy"/>
+        <Class IRI="#Avoidance"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ResolveRiskBy"/>
+        <Class IRI="#Self-Insure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ResolveRiskBy"/>
+        <Class IRI="#Self-protect"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ResolveRiskBy"/>
+        <Class IRI="#Transfer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Achieve"/>
+        <Class IRI="#Functions"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Benefit"/>
+        <Class IRI="#stakeholders"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ContributeTo"/>
+        <Class IRI="#ProblemElicitation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ContributeTo"/>
+        <Class IRI="#Theory"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CorresponseTo"/>
+        <Class IRI="#Theory"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CreatedValuesFor"/>
+        <Class IRI="#Product"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Explains"/>
+        <Class IRI="#GeneralDesign"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasSatisfied"/>
+        <Class IRI="#Product"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasUtilityFor"/>
+        <Class IRI="#GeneralRequirement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#RequireFor"/>
+        <Class IRI="#Functions"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#RequiredBy"/>
+        <Class IRI="#stakeholders"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ResolveRiskBy"/>
+        <Class IRI="#ArtefactDisseminationAndUse"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ResolveRiskBy"/>
+        <Class IRI="#BuildPurposefulArtefacts"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ResolveRiskBy"/>
+        <Class IRI="#BusinessNeeds"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ResolveRiskBy"/>
+        <Class IRI="#EvaluateAndJustify"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ResolveRiskBy"/>
+        <Class IRI="#Evaluation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ResolveRiskBy"/>
+        <Class IRI="#Grounding"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ResolveRiskBy"/>
+        <Class IRI="#KnowledgeAdditions"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#HasProbabilityOf"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#TheConsequencesOf"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#HasProbabilityOf"/>
+        <Class IRI="#ArtefactDisseminationAndUse"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#HasProbabilityOf"/>
+        <Class IRI="#BuildPurposefulArtefacts"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#HasProbabilityOf"/>
+        <Class IRI="#BusinessNeeds"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#HasProbabilityOf"/>
+        <Class IRI="#EvaluateAndJustify"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#HasProbabilityOf"/>
+        <Class IRI="#Grounding"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#HasProbabilityOf"/>
+        <Class IRI="#KnowledgeAdditions"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#HasProbabilityOf"/>
+        <DataOneOf>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ignorable</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Important</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Less Important</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Unimportant</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Very important</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">catastrophic</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#TheConsequencesOf"/>
+        <DataOneOf>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">High</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Low</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Medium</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Artefact</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">artefact includes system, method, methodology, technique, tool, procedure, practice, or other technology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Problem</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">the problem is a subjective and perceived concept which demonstrate a matter or situation undesired</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Theory</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a theory is a set of accepted principles or concepts which can be used for guiding instruct activities.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
