@@ -1,1 +1,1 @@
-This is DSR domain ontology based on protege.
+This is DSR domain ontology based on protégé 5.2.
