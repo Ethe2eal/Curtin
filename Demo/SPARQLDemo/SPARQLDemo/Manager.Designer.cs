@@ -30,11 +30,11 @@
         {
             this.NameLabel = new System.Windows.Forms.Label();
             this.classTextBox = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.definitionLabel = new System.Windows.Forms.Label();
+            this.subClassTextBox = new System.Windows.Forms.TextBox();
             this.commentLabel = new System.Windows.Forms.Label();
-            this.commentRichTextBox = new System.Windows.Forms.RichTextBox();
+            this.subClassLabel = new System.Windows.Forms.Label();
             this.submitButton = new System.Windows.Forms.Button();
+            this.commentTextBox = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // NameLabel
@@ -53,38 +53,30 @@
             this.classTextBox.Size = new System.Drawing.Size(174, 26);
             this.classTextBox.TabIndex = 1;
             // 
-            // textBox1
+            // subClassTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(187, 131);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(174, 26);
-            this.textBox1.TabIndex = 2;
-            // 
-            // definitionLabel
-            // 
-            this.definitionLabel.AutoSize = true;
-            this.definitionLabel.Location = new System.Drawing.Point(28, 137);
-            this.definitionLabel.Name = "definitionLabel";
-            this.definitionLabel.Size = new System.Drawing.Size(116, 20);
-            this.definitionLabel.TabIndex = 3;
-            this.definitionLabel.Text = "Class Definiton";
+            this.subClassTextBox.Location = new System.Drawing.Point(187, 117);
+            this.subClassTextBox.Name = "subClassTextBox";
+            this.subClassTextBox.Size = new System.Drawing.Size(174, 26);
+            this.subClassTextBox.TabIndex = 2;
             // 
             // commentLabel
             // 
             this.commentLabel.AutoSize = true;
-            this.commentLabel.Location = new System.Drawing.Point(32, 210);
+            this.commentLabel.Location = new System.Drawing.Point(28, 179);
             this.commentLabel.Name = "commentLabel";
             this.commentLabel.Size = new System.Drawing.Size(86, 20);
-            this.commentLabel.TabIndex = 4;
+            this.commentLabel.TabIndex = 3;
             this.commentLabel.Text = "Comments";
             // 
-            // commentRichTextBox
+            // subClassLabel
             // 
-            this.commentRichTextBox.Location = new System.Drawing.Point(187, 210);
-            this.commentRichTextBox.Name = "commentRichTextBox";
-            this.commentRichTextBox.Size = new System.Drawing.Size(174, 96);
-            this.commentRichTextBox.TabIndex = 5;
-            this.commentRichTextBox.Text = "";
+            this.subClassLabel.AutoSize = true;
+            this.subClassLabel.Location = new System.Drawing.Point(28, 117);
+            this.subClassLabel.Name = "subClassLabel";
+            this.subClassLabel.Size = new System.Drawing.Size(94, 20);
+            this.subClassLabel.TabIndex = 4;
+            this.subClassLabel.Text = "SubClassOf";
             // 
             // submitButton
             // 
@@ -96,16 +88,24 @@
             this.submitButton.UseVisualStyleBackColor = true;
             this.submitButton.Click += new System.EventHandler(this.submitButton_Click);
             // 
+            // commentTextBox
+            // 
+            this.commentTextBox.Location = new System.Drawing.Point(187, 179);
+            this.commentTextBox.Name = "commentTextBox";
+            this.commentTextBox.Size = new System.Drawing.Size(174, 112);
+            this.commentTextBox.TabIndex = 7;
+            this.commentTextBox.Text = "";
+            // 
             // Manager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(556, 416);
+            this.Controls.Add(this.commentTextBox);
             this.Controls.Add(this.submitButton);
-            this.Controls.Add(this.commentRichTextBox);
+            this.Controls.Add(this.subClassLabel);
             this.Controls.Add(this.commentLabel);
-            this.Controls.Add(this.definitionLabel);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.subClassTextBox);
             this.Controls.Add(this.classTextBox);
             this.Controls.Add(this.NameLabel);
             this.Name = "Manager";
@@ -119,10 +119,10 @@
 
         private System.Windows.Forms.Label NameLabel;
         private System.Windows.Forms.TextBox classTextBox;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label definitionLabel;
+        private System.Windows.Forms.TextBox subClassTextBox;
         private System.Windows.Forms.Label commentLabel;
-        private System.Windows.Forms.RichTextBox commentRichTextBox;
+        private System.Windows.Forms.Label subClassLabel;
         private System.Windows.Forms.Button submitButton;
+        private System.Windows.Forms.RichTextBox commentTextBox;
     }
 }

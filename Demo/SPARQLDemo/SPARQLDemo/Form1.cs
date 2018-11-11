@@ -13,6 +13,10 @@ using VDS.RDF.Parsing;
 using VDS.RDF.Writing;
 using VDS.RDF.Query;
 using VDS.RDF.Query.Builder;
+using VDS.RDF.Update;
+using VDS.RDF.Storage;
+using VDS.RDF.Writing.Formatting;
+using VDS.RDF.Query.Datasets;
 
 namespace SPARQLDemo
 {
@@ -28,38 +32,35 @@ namespace SPARQLDemo
         public int flag;
         private void search_Click(object sender, EventArgs e)
         {
+            resultBox.Items.Clear();
             string keyWord;
             keyWord = textBox1.Text;
             List<string> arr = new List<string>();
             ResetOntology();
-            foreach (var item in this.resultBox.Items)
+            if (keyWord != "")
             {
-                arr.Add(item.ToString());
-            }
-            resultBox.Items.Clear();
-            for(int i=0;i<arr.Count;i++)
-            {
-                if (arr[i].ToLower().Contains(keyWord.ToLower()))
+                foreach (var item in this.resultBox.Items)
                 {
-                    resultBox.Items.Add(arr[i]);
+                    arr.Add(item.ToString());
                 }
+                resultBox.Items.Clear();
+                for (int i = 0; i < arr.Count; i++)
+                {
+                    if (arr[i].ToLower().Contains(keyWord.ToLower()))
+                    {
+                        resultBox.Items.Add(arr[i]);
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Please type a word");
             }
             if (resultBox.Items.Count == 0)
             {
                 MessageBox.Show("No item found\n You can give us feedback");
+                ResetOntology();
             }
-        }
-        public object Search(string a)
-        {
-            IGraph g = new Graph();
-            g.LoadFromFile("DSRO.rdf");
-            object results = g.ExecuteQuery("PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>"
-                + "PREFIX owl: <http://www.w3.org/2002/07/owl#>"
-                + "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"
-                + "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>"
-                + "PREFIX dsro: <http://www.semanticweb.org/zhang/ontologies/2018/8/DSR-ontology#>"
-                + "SELECT ?x WHERE {  ?x rdfs:subClassOf  dsro:" + a + "}");
-            return results;
         }
         public object InsertNewClass(string a)
         {
@@ -70,7 +71,8 @@ namespace SPARQLDemo
                 + "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"
                 + "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>"
                 + "PREFIX dsro: <http://www.semanticweb.org/zhang/ontologies/2018/8/DSR-ontology#>"
-                + "SELECT ?SubClassOfPerson WHERE {  ?SubClassOfPerson rdfs:subClassOf  dsro:" + a + "}");
+                //+ "SELECT ?SubClassOfPerson WHERE {  ?SubClassOfPerson rdfs:subClassOf  dsro:" + a + "}");
+                +"SELECT ?SubClassOfPerson WHERE {  ?SubClassOfPerson rdfs:subClassOf  dsro:" + a + "}");
             return results;
         }
         public object SuperClass(string a)
