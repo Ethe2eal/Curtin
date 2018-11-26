@@ -13,13 +13,7 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
-        <Class IRI="#Functions"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#CorresponseTo"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Philosophy"/>
     </Declaration>
     <Declaration>
         <Class IRI="#RiskManagement"/>
@@ -34,16 +28,10 @@
         <Class IRI="#Questionnaire"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ArtefactDomain"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#NotSafetyCritical"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Theory"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#SolutionRequirementsModelling"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Developer"/>
@@ -52,25 +40,16 @@
         <NamedIndividual IRI="#SDRM"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#HumanRiskAndEffectiveness"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Library"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#PrototypeDemonstration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HumanRiskAndEffectiveness"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#DynamicAnalysis"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ResearchUndertaking"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Time"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Software"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Analytic/ComputerSimulation"/>
@@ -79,13 +58,10 @@
         <NamedIndividual IRI="#Criteria-Based"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#PrinciplesOfFunctions"/>
+        <Class IRI="#Avoidance"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ObjectivistMethodology"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Avoidance"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#PilotStudy"/>
@@ -94,7 +70,7 @@
         <ObjectProperty IRI="#IncludesIn"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Output"/>
+        <Class IRI="#RiskTreatment"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ArtefactDisseminationAndUse"/>
@@ -110,18 +86,6 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#DSRPM"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Traning"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DailyUse"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ProblemDefinition"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#MethodologyType"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#ExPostDesriptions"/>
@@ -145,25 +109,19 @@
         <NamedIndividual IRI="#OpinionAndPersonalExperience"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ClassesOfRiskTreatment"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Practice"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Ethics"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ArtefactMutability"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DataCollection"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ProblemAnalysisTechnique"/>
+        <ObjectProperty IRI="#HasEffciencyIn"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#HasEffciencyIn"/>
+        <Class IRI="#EvaluationMetric"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Consultancy"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#OpinionAndExample"/>
@@ -172,16 +130,7 @@
         <Class IRI="#NaturalisticEvaluation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Research"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Transfer"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Iconic"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#PurposeAndScope"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Stakeholder"/>
@@ -191,9 +140,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#DocumentReview"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#BuildPurposefulArtefact"/>
     </Declaration>
     <Declaration>
         <Class IRI="#PurelyTechnical"/>
@@ -205,43 +151,28 @@
         <NamedIndividual IRI="#ScenariosMethod"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#BuildPurposefulArtefact"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#GeneralDesign"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#IndividualInterview"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#SocialParticipation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#MetaLevelTheory"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#StaticAnalysis"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Classification"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Verbal"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#PADR"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#NatureOfArtefactsDimension"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Self-Insure"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Self-protect"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#ResolveRiskBy"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#PrimaryData"/>
+        <Class IRI="#Self-protect"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#FieldExperiment"/>
@@ -250,61 +181,46 @@
         <Class IRI="#Grounding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ProductArtefct"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#RequiredBy"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HelpService"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#FocusGroup"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Paradigm"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#FormReview"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#RequireFor"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#ResponseTo"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#EvaluationGoal"/>
+        <ObjectProperty IRI="#RequireFor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EvaluationPurpose"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SecondaryDataCollection"/>
     </Declaration>
     <Declaration>
         <Class IRI="#SubjectivistMethodology"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Constructs"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#GeneralRequirement"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#SecondaryData"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#ParticipantObservation"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#HasUtilityFor"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#HasSatisfied"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#GroupFacilitation"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#DSRM"/>
+        <ObjectProperty IRI="#HasUtilityFor"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#DelphiStudy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DSRM"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#BasedOn"/>
@@ -313,22 +229,16 @@
         <Class IRI="#Interview"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ITsystem"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#FieldStudy"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#MethodologyFramework"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ProcessArtefact"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#GroundedTheory"/>
+        <Class IRI="#FunctionDesign"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#JustificatoryKnowledge"/>
+        <NamedIndividual IRI="#GroundedTheory"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ProblemAnalysis"/>
@@ -340,13 +250,22 @@
         <NamedIndividual IRI="#PositivistCaseStudy"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Documentation"/>
+        <Class IRI="#ExplanatoryDesignTheory"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Model"/>
+        <Class IRI="#Purpose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProductArtefact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MethodologyTheory"/>
     </Declaration>
     <Declaration>
         <Class IRI="#SummativeEvaluation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GainValueFrom"/>
     </Declaration>
     <Declaration>
         <Class IRI="#QuantitativeMethod"/>
@@ -361,19 +280,16 @@
         <NamedIndividual IRI="#Ethnography"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ProblemElicitation"/>
-    </Declaration>
-    <Declaration>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#CreatedValuesFor"/>
+        <Class IRI="#ProblemElicitation"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#InterpretiveCaseStudy"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Analytic"/>
+        <ObjectProperty IRI="#CreatedValuesFor"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#DevelopmentOfISInstruments"/>
@@ -382,7 +298,7 @@
         <DataProperty IRI="#HasProbabilityOf"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ClassesOfRisk"/>
+        <Class IRI="#Methodology"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Person"/>
@@ -397,6 +313,9 @@
         <NamedIndividual IRI="#ThinkAloudProtocolAnalysis"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#PrimaryDataCollection"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#CausalAnalysis"/>
     </Declaration>
     <Declaration>
@@ -406,34 +325,16 @@
         <Class IRI="#KnowledgeAddition"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Background"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#SocioTechnical"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#PureTechnical"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UserBase"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#PrincipleOfForm"/>
     </Declaration>
     <Declaration>
         <Class IRI="#QuickAndSimple"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Product"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#TestablePropositions"/>
+        <NamedIndividual IRI="#SDSM"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Efficiency"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#SDSM"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#TheConsequencesOf"/>
@@ -442,37 +343,28 @@
         <ObjectProperty IRI="#Support"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#StakeholderClass"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#ADR"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#QualitativeSurvey/Questionnaire"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ContextModelling"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#EvaluateAndJustify"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Observation"/>
     </Declaration>
     <Declaration>
         <Class IRI="#KernelTheory"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Simulation"/>
+        <Class IRI="#Observation"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Problem"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#GroupInterview"/>
+        <Class IRI="#DesignPurpose"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Goal"/>
+        <NamedIndividual IRI="#GroupInterview"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ArtficialEvaluation"/>
@@ -484,7 +376,10 @@
         <NamedIndividual IRI="#Game/RolePlayingSimulation"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#SecondaryData"/>
+        <Class IRI="#RiskAnalysis"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Benefit"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Technique"/>
@@ -493,130 +388,80 @@
         <NamedIndividual IRI="#Forecasting"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#Benefit"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Scenarios"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#EvaluationType"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#TheoremProof"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Obejective"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#EvaluationStrategy"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Components"/>
+        <Class IRI="#PureTechnicalArtefact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Obejective"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#ActionResearch"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#LaboratoryExperiment"/>
+        <Class IRI="#SecondaryDataCollection"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#HasEffctivenessIn"/>
+        <NamedIndividual IRI="#LaboratoryExperiment"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#WhiteBoxTesting"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#QualitativeMethod"/>
+        <ObjectProperty IRI="#HasEffctivenessIn"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Consultancy"/>
+        <Class IRI="#QualitativeMethod"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#Evaluate"/>
     </Declaration>
     <SubClassOf>
-        <Class IRI="#Analytic"/>
-        <Class IRI="#Model"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#ArtefactDisseminationAndUse"/>
-        <Class IRI="#ClassesOfRisk"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ArtefactDomain"/>
-        <Class IRI="#Philosophy"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ArtefactMutability"/>
-        <Class IRI="#GeneralDesign"/>
+        <Class IRI="#RiskAnalysis"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ArtficialEvaluation"/>
-        <Class IRI="#EvaluationType"/>
+        <Class IRI="#Evaluation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Avoidance"/>
-        <Class IRI="#ClassesOfRiskTreatment"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Background"/>
-        <Class IRI="#Practice"/>
+        <Class IRI="#RiskTreatment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BuildPurposefulArtefact"/>
-        <Class IRI="#ClassesOfRisk"/>
+        <Class IRI="#RiskAnalysis"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BusinessNeed"/>
-        <Class IRI="#ClassesOfRisk"/>
+        <Class IRI="#RiskAnalysis"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CausalAnalysis"/>
         <Class IRI="#ProblemAnalysis"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#ClassesOfRisk"/>
-        <Class IRI="#RiskManagement"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ClassesOfRiskTreatment"/>
-        <Class IRI="#RiskManagement"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Classification"/>
-        <Class IRI="#CausalAnalysis"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Client"/>
         <Class IRI="#Person"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Components"/>
-        <Class IRI="#GeneralDesign"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Constructs"/>
-        <Class IRI="#GeneralRequirement"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Consultancy"/>
-        <Class IRI="#Product"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ContextModelling"/>
-        <Class IRI="#Modelling"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#DailyUse"/>
-        <Class IRI="#ObjectivistMethodology"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#DataCollection"/>
-        <Class IRI="#ProblemElicitation"/>
+        <Class IRI="#Technique"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DesignPurpose"/>
+        <Class IRI="#Purpose"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DesignTheory"/>
-        <Class IRI="#ObjectivistMethodology"/>
+        <Class IRI="#Theory"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Developer"/>
@@ -624,59 +469,59 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DocumentReview"/>
-        <Class IRI="#SecondaryData"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Documentation"/>
-        <Class IRI="#Product"/>
+        <Class IRI="#SecondaryDataCollection"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Efficiency"/>
-        <Class IRI="#EvaluationGoal"/>
+        <Class IRI="#EvaluationPurpose"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Ethics"/>
-        <Class IRI="#EvaluationGoal"/>
+        <Class IRI="#EvaluationPurpose"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#EvaluateAndJustify"/>
-        <Class IRI="#ClassesOfRisk"/>
+        <Class IRI="#RiskAnalysis"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#EvaluationGoal"/>
+        <Class IRI="#EvaluationMetric"/>
         <Class IRI="#Evaluation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EvaluationPurpose"/>
+        <Class IRI="#Purpose"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#EvaluationStrategy"/>
         <Class IRI="#Evaluation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#EvaluationType"/>
-        <Class IRI="#Evaluation"/>
+        <Class IRI="#ExplanatoryDesignTheory"/>
+        <Class IRI="#DesignTheory"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#FormReview"/>
-        <Class IRI="#SecondaryData"/>
+        <Class IRI="#SecondaryDataCollection"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#FormativeEvaluation"/>
-        <Class IRI="#EvaluationType"/>
+        <Class IRI="#Evaluation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Functions"/>
-        <Class IRI="#GeneralRequirement"/>
+        <Class IRI="#FunctionDesign"/>
+        <Class IRI="#DesignTheory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FunctionDesign"/>
+        <Class IRI="#GeneralDesign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GeneralDesign"/>
-        <Class IRI="#Theory"/>
+        <Class IRI="#ExplanatoryDesignTheory"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GeneralRequirement"/>
-        <Class IRI="#Theory"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Goal"/>
-        <Class IRI="#Philosophy"/>
+        <Class IRI="#Purpose"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GoalModelling"/>
@@ -684,131 +529,59 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Grounding"/>
-        <Class IRI="#ClassesOfRisk"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#GroupFacilitation"/>
-        <Class IRI="#SecondaryData"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HelpService"/>
-        <Class IRI="#Product"/>
+        <Class IRI="#RiskAnalysis"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HumanRiskAndEffectiveness"/>
         <Class IRI="#EvaluationStrategy"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#ITsystem"/>
-        <Class IRI="#ObjectivistMethodology"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Iconic"/>
-        <Class IRI="#Model"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Interview"/>
-        <Class IRI="#PrimaryData"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#JustificatoryKnowledge"/>
-        <Class IRI="#GeneralDesign"/>
+        <Class IRI="#PrimaryDataCollection"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#KernelTheory"/>
-        <Class IRI="#Theory"/>
+        <Class IRI="#DesignTheory"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#KnowledgeAddition"/>
-        <Class IRI="#ClassesOfRisk"/>
+        <Class IRI="#RiskAnalysis"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Library"/>
-        <Class IRI="#SecondaryData"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#MetaLevelTheory"/>
-        <Class IRI="#SubjectivistMethodology"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#MethodologyFramework"/>
-        <Class IRI="#Artefact"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#MethodologyType"/>
-        <Class IRI="#MethodologyFramework"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Model"/>
-        <Class IRI="#MethodologyFramework"/>
+        <Class IRI="#MethodologyTheory"/>
+        <Class IRI="#Theory"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Modelling"/>
-        <Class IRI="#ProblemAnalysisTechnique"/>
+        <Class IRI="#Technique"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NaturalisticEvaluation"/>
-        <Class IRI="#EvaluationType"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#NatureOfArtefactsDimension"/>
-        <Class IRI="#Artefact"/>
+        <Class IRI="#Evaluation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NotSafetyCritical"/>
-        <Class IRI="#NatureOfArtefactsDimension"/>
+        <Class IRI="#Artefact"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Obejective"/>
-        <Class IRI="#Philosophy"/>
+        <Class IRI="#Purpose"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ObjectivistMethodology"/>
-        <Class IRI="#MethodologyType"/>
+        <Class IRI="#Methodology"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Observation"/>
-        <Class IRI="#PrimaryData"/>
+        <Class IRI="#PrimaryDataCollection"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Output"/>
-        <Class IRI="#MethodologyFramework"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Paradigm"/>
-        <Class IRI="#Philosophy"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Philosophy"/>
-        <Class IRI="#MethodologyFramework"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Practice"/>
-        <Class IRI="#MethodologyFramework"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#PrimaryData"/>
+        <Class IRI="#PrimaryDataCollection"/>
         <Class IRI="#DataCollection"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#PrincipleOfForm"/>
-        <Class IRI="#GeneralDesign"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#PrinciplesOfFunctions"/>
-        <Class IRI="#GeneralDesign"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#ProblemAnalysis"/>
-        <Class IRI="#Problem"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ProblemAnalysisTechnique"/>
-        <Class IRI="#ProblemAnalysis"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ProblemDefinition"/>
-        <Class IRI="#ProblemAnalysis"/>
+        <Class IRI="#Technique"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ProblemElicitation"/>
@@ -816,103 +589,71 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ProcessArtefact"/>
-        <Class IRI="#NatureOfArtefactsDimension"/>
+        <Class IRI="#Artefact"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Product"/>
-        <Class IRI="#MethodologyFramework"/>
+        <Class IRI="#ProductArtefact"/>
+        <Class IRI="#Artefact"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#ProductArtefct"/>
-        <Class IRI="#NatureOfArtefactsDimension"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#PureTechnical"/>
-        <Class IRI="#NatureOfArtefactsDimension"/>
+        <Class IRI="#PureTechnicalArtefact"/>
+        <Class IRI="#Artefact"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PurelyTechnical"/>
         <Class IRI="#EvaluationStrategy"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#PurposeAndScope"/>
-        <Class IRI="#GeneralRequirement"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#QualitativeMethod"/>
-        <Class IRI="#FormativeEvaluation"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#QualitativeMethod"/>
-        <Class IRI="#SummativeEvaluation"/>
+        <Class IRI="#EvaluationMetric"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#QuantitativeMethod"/>
-        <Class IRI="#FormativeEvaluation"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#QuantitativeMethod"/>
-        <Class IRI="#SummativeEvaluation"/>
+        <Class IRI="#EvaluationMetric"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Questionnaire"/>
-        <Class IRI="#PrimaryData"/>
+        <Class IRI="#PrimaryDataCollection"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#QuickAndSimple"/>
         <Class IRI="#EvaluationStrategy"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Research"/>
-        <Class IRI="#PrimaryData"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ResearchUndertaking"/>
-        <Class IRI="#SubjectivistMethodology"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Rigor"/>
-        <Class IRI="#EvaluationGoal"/>
+        <Class IRI="#EvaluationPurpose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RiskAnalysis"/>
+        <Class IRI="#RiskManagement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RiskManagement"/>
         <Class IRI="#Evaluation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#SafetyCritical"/>
-        <Class IRI="#NatureOfArtefactsDimension"/>
+        <Class IRI="#RiskTreatment"/>
+        <Class IRI="#RiskManagement"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#SecondaryData"/>
+        <Class IRI="#SafetyCritical"/>
+        <Class IRI="#Artefact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SecondaryDataCollection"/>
         <Class IRI="#DataCollection"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Self-Insure"/>
-        <Class IRI="#ClassesOfRiskTreatment"/>
+        <Class IRI="#RiskTreatment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Self-protect"/>
-        <Class IRI="#ClassesOfRiskTreatment"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Simulation"/>
-        <Class IRI="#Model"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#SocialParticipation"/>
-        <Class IRI="#SubjectivistMethodology"/>
+        <Class IRI="#RiskTreatment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SocioTechnical"/>
-        <Class IRI="#NatureOfArtefactsDimension"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Software"/>
-        <Class IRI="#Product"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#SolutionRequirementsModelling"/>
-        <Class IRI="#Modelling"/>
+        <Class IRI="#Artefact"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Stakeholder"/>
@@ -923,96 +664,26 @@
         <Class IRI="#ProblemAnalysis"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#StakeholderClass"/>
-        <Class IRI="#Classification"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#SubjectivistMethodology"/>
-        <Class IRI="#MethodologyType"/>
+        <Class IRI="#Methodology"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SummativeEvaluation"/>
-        <Class IRI="#EvaluationType"/>
+        <Class IRI="#Evaluation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TechnicalRiskAndEfficacy"/>
         <Class IRI="#EvaluationStrategy"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Technique"/>
-        <Class IRI="#MethodologyFramework"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#TestablePropositions"/>
-        <Class IRI="#GeneralDesign"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Traning"/>
-        <Class IRI="#Product"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Transfer"/>
-        <Class IRI="#ClassesOfRiskTreatment"/>
+        <Class IRI="#RiskTreatment"/>
     </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UserBase"/>
-        <Class IRI="#Practice"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Verbal"/>
-        <Class IRI="#Model"/>
-    </SubClassOf>
-    <DisjointClasses>
-        <Class IRI="#Analytic"/>
-        <Class IRI="#Iconic"/>
-        <Class IRI="#Simulation"/>
-        <Class IRI="#Verbal"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#ArtefactMutability"/>
-        <Class IRI="#Constructs"/>
-        <Class IRI="#Functions"/>
-        <Class IRI="#JustificatoryKnowledge"/>
-        <Class IRI="#PrincipleOfForm"/>
-        <Class IRI="#PurposeAndScope"/>
-        <Class IRI="#TestablePropositions"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Consultancy"/>
-        <Class IRI="#Documentation"/>
-        <Class IRI="#HelpService"/>
-        <Class IRI="#Software"/>
-        <Class IRI="#Traning"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#DailyUse"/>
-        <Class IRI="#DesignTheory"/>
-        <Class IRI="#ITsystem"/>
-    </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#HumanRiskAndEffectiveness"/>
         <Class IRI="#PurelyTechnical"/>
         <Class IRI="#QuickAndSimple"/>
         <Class IRI="#TechnicalRiskAndEfficacy"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#MetaLevelTheory"/>
-        <Class IRI="#ResearchUndertaking"/>
-        <Class IRI="#SocialParticipation"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#MethodologyType"/>
-        <Class IRI="#Model"/>
-        <Class IRI="#Output"/>
-        <Class IRI="#Philosophy"/>
-        <Class IRI="#Practice"/>
-        <Class IRI="#Product"/>
-        <Class IRI="#Technique"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Model"/>
-        <Class IRI="#Philosophy"/>
-        <Class IRI="#Technique"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#NotSafetyCritical"/>
@@ -1023,18 +694,14 @@
         <Class IRI="#SubjectivistMethodology"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#PrimaryData"/>
-        <Class IRI="#SecondaryData"/>
+        <Class IRI="#PrimaryDataCollection"/>
+        <Class IRI="#SecondaryDataCollection"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#QualitativeMethod"/>
         <Class IRI="#QuantitativeMethod"/>
     </DisjointClasses>
     <ClassAssertion>
-        <Class IRI="#ResearchUndertaking"/>
-        <NamedIndividual IRI="#ADR"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#ArtficialEvaluation"/>
         <NamedIndividual IRI="#ActionResearch"/>
     </ClassAssertion>
@@ -1085,14 +752,6 @@
     <ClassAssertion>
         <Class IRI="#SummativeEvaluation"/>
         <NamedIndividual IRI="#Criteria-Based"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#DailyUse"/>
-        <NamedIndividual IRI="#DSRM"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#DesignTheory"/>
-        <NamedIndividual IRI="#DSRPM"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#ArtficialEvaluation"/>
@@ -1271,10 +930,6 @@
         <NamedIndividual IRI="#OptimizationAnalysis"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#SocialParticipation"/>
-        <NamedIndividual IRI="#PADR"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#ArtficialEvaluation"/>
         <NamedIndividual IRI="#ParticipantObservation"/>
     </ClassAssertion>
@@ -1331,14 +986,6 @@
         <NamedIndividual IRI="#PrototypeDemonstration"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#ITsystem"/>
-        <NamedIndividual IRI="#SDRM"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#MetaLevelTheory"/>
-        <NamedIndividual IRI="#SDSM"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#ArtficialEvaluation"/>
         <NamedIndividual IRI="#Scenarios"/>
     </ClassAssertion>
@@ -1352,11 +999,11 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#NaturalisticEvaluation"/>
-        <NamedIndividual IRI="#SecondaryData"/>
+        <NamedIndividual IRI="#SecondaryDataCollection"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#SummativeEvaluation"/>
-        <NamedIndividual IRI="#SecondaryData"/>
+        <NamedIndividual IRI="#SecondaryDataCollection"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#ArtficialEvaluation"/>
@@ -1540,7 +1187,7 @@
     </InverseObjectProperties>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#Benefit"/>
-        <Class IRI="#Product"/>
+        <Class IRI="#Artefact"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#ContributeTo"/>
@@ -1560,11 +1207,15 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#Evaluate"/>
-        <Class IRI="#SummativeEvaluation"/>
+        <Class IRI="#Evaluation"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#Explains"/>
         <Class IRI="#GeneralRequirement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GainValueFrom"/>
+        <Class IRI="#Client"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#HasSatisfied"/>
@@ -1572,7 +1223,7 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#HasUtilityFor"/>
-        <Class IRI="#GeneralRequirement"/>
+        <Class IRI="#GeneralDesign"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#RequireFor"/>
@@ -1580,7 +1231,7 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#RequiredBy"/>
-        <Class IRI="#Functions"/>
+        <Class IRI="#FunctionDesign"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#ResolveRiskBy"/>
@@ -1612,11 +1263,11 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#CorresponseTo"/>
-        <Class IRI="#Theory"/>
+        <Class IRI="#DesignTheory"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#CreatedValuesFor"/>
-        <Class IRI="#Product"/>
+        <Class IRI="#Artefact"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#Evaluate"/>
@@ -1627,8 +1278,8 @@
         <Class IRI="#GeneralDesign"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#HasSatisfied"/>
-        <Class IRI="#Product"/>
+        <ObjectProperty IRI="#GainValueFrom"/>
+        <Class IRI="#Artefact"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#HasUtilityFor"/>
@@ -1636,7 +1287,7 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#RequireFor"/>
-        <Class IRI="#Functions"/>
+        <Class IRI="#FunctionDesign"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#RequiredBy"/>
@@ -1722,9 +1373,16 @@
         </DataOneOf>
     </DataPropertyRange>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Artefact</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">PurposefulArtefact</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
         <IRI>#Artefact</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">artefact includes system, method, methodology, technique, tool, procedure, practice, or other technology</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An artefact describes a tangible concept of something that is artificial / human made. Merriam-Webster defines artefact as “something characteristic of or resulting from a particular human institution, period, trend, or individual”
+
+artefact includes system, method, methodology, technique, tool, procedure, practice, or other technology</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1734,17 +1392,12 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
         <IRI>#ArtficialEvaluation</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Artificial Evaluation is evaluating a solution technology in a contrived, non-real way</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A subclass of evaluation. Artificial Evaluation is evaluating a solution technology in a contrived, non-real way.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Avoidance</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">means that you make a decision not to do something risky, thereby avoiding the risk, e.g. reduce or change the research scope</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
-        <IRI>#Background</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Commercial or Academic? (Same as for ISD)</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A subclass of RiskTreatment. Avoidance means that you make a decision not to do something risky, thereby avoiding the risk, e.g. reduce or change the research scope</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1759,17 +1412,37 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
         <IRI>#CausalAnalysis</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">analysis problem from the aspect of causal</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A subclass of problem analysis. analysis problem from the aspect of causal.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
         <IRI>#Client</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">the person uses Artefact</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a subclass of person, in DSR, client describes the person uses Artefact</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#DataCollection</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A specialisation of techniques. this class represents the classes of data collections. The data collection techniques can be used in problem analysis, artefact developement.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#DesignPurpose</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A subclass of purpose. in DSR, design purpose resolves the question “What the system is for,” the set of meta-requirements or goals that specifies the type of artifact to which the theory applies and in conjunction also defines the scope, or boundaries, of the theory.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#DesignTheory</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A subclass of theory. design theory prescribes the form and functions of an artefact and it also describes the way of design achievement.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
         <IRI>#Developer</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The person develops artefact</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a subclass of person, in DSR, developer describes the person develops artefact</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#DocumentReview</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A subclass of SecondaryDataCollection. Review documents can help to gathing secondary data.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
@@ -1779,7 +1452,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
         <IRI>#Ethics</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Research, including DSR, should not unnecessarily put animals, people, organisations, or the public at risk during or after evaluation</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Research, including DSR, should not unnecessarily put animals, people, organisations, or the public at risk during or after evaluation.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1789,27 +1462,58 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
         <IRI>#Evaluation</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Evaluation is the process of determining how well the artefact performs</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Evaluation is the process of determining how well the artefact performs. in DSR, an evaluation is used for evaluating the quality of artefact.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
-        <IRI>#EvaluationGoal</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">what the evaluation for</Literal>
+        <IRI>#EvaluationMetric</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A specialisation of Evaluation. evaluation can be quantative or quanlitative.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#EvaluationPurpose</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A subclass of purpose. this class demonstrate what the evaluation for</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
         <IRI>#EvaluationStrategy</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a detailed plan for achieving success in evaluation</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A subclass of evaluation. this concept prescribes a detailed plan for achieving success in evaluation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#ExplanatoryDesignTheory</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A subclass of design theory which is explanatory knowledge about design theory. 
+Baskerville (2010) proposed a new concept of design theory which emphasise the explanatory function of a design theory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#FormReview</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A subclass of SecondaryDataCollection. Review forms can help to gathing secondary data.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
         <IRI>#FormativeEvaluation</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Formative Evaluation – Helps resolve risks and uncertainties and identify areas of needed improvement during development</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A specialisation of Evaluation. Formative Evaluation – Helps resolve risks and uncertainties and identify areas of needed improvement during development.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
-        <IRI>#Goal</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">“What the system is for,” the set of meta-requirements or goals that specifies the type of artifact to which the theory applies and in conjunction also defines the scope, or boundaries, of the theory.</Literal>
+        <IRI>#FunctionDesign</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A subclass of Design Theory. FunctionDesign focus on the functions of artefact. Venable (2013a) describes function is a component of general design</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#GeneralDesign</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a subclass of explanatory design theory. Unlike Walls et al. (2004), Baskerville (2010) proposed a simple thoery design which includes general design and general requirements. this thoery simplify the process of theory design</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#GeneralRequirement</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A subclass of purpose. Baskerville (2010) proposed general requirements as the elements of explanatory design theory.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#GoalModelling</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A specialisation of modeling activity. in DSR, a goal is not easy to understand. Thus, goal modeling can help understand the goal of design theory, evaluation.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1819,9 +1523,22 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
         <IRI>#HumanRiskAndEffectiveness</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">the major design risk is user oriented
-
-relatively cheap to evaluate with real users in their real context</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A subclass of evaluation strategy. The major design risk is user oriented. relatively cheap to evaluate with real users in their real context.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Interview</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A subclass of PrimaryDataCollection. Interview is a conversation where question asked and answers are given. In DSR, this technique is commonly used in many aspects such as problems analysis.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#KernelTheory</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">JustificatoryKnowledge</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#KernelTheory</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A subclass of DesignTheory. According to Gregor and Jones (2007), this knowledge is linked to purpose, shapes, processes, even materials of artefacts. They explain that although the justificatory knowledge (kernel theory) could be incomplete, it contributes to better understanding. Such knowledge provides insights that why such theory is likely to be true (Vaishnavi, Kuechler, and Petter 2017). Unlike Gregor and Jones (2007), Venable (2013) does not include justificatiory knowledge in the design theory.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1830,43 +1547,43 @@ relatively cheap to evaluate with real users in their real context</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
-        <IRI>#MethodologyFramework</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a supporting structure of methodology around which something can be built</Literal>
+        <IRI>#Methodology</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A supporting structure of methodology around which something can be built. In DSR, a methodology is used to create artefacts</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
-        <IRI>#MethodologyType</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a particular group of methodologies that share similar characteristics and form a smaller division of a larger set.</Literal>
+        <IRI>#MethodologyTheory</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A specialisation of theory. methodology theory describes the principles of implementation and the steps of implementations.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
-        <IRI>#Model</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">What is the basic abstraction and representation mechanism used?</Literal>
+        <IRI>#Modelling</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A specialisation of technique which could be used during the artefact development and evaluation. this activity make context, goal, requirement. etc. easier to understand.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
         <IRI>#NaturalisticEvaluation</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Naturalistic evaluation enables a researcher to explore how well or poorly a solution technology works in its real environment – the organisation</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A subclass of evaluation. Naturalistic evaluation enables a researcher to explore how well or poorly a solution technology works in its real environment – the organisation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#NotSafetyCritical</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A subclass of artefact. this types artefact is not safety critical.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
         <IRI>#Obejective</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Possible goals/objectives include: Increasing relevance, Increasing research rigour, Improvement (for whom – client? other stakeholders? those disadvantaged? the public? in what way? – Efficacy? Effectiveness, Efficiency, Ethicality), Emancipation/critical perspective, Stakeholder consensus, Solving the “right” problem, Artefact effectiveness, Relation to existing literature, Practical significance, Theoretical significance</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A specialisation of purpose. Possible goals/objectives include: Increasing relevance, Increasing research rigour, Improvement (for whom – client? other stakeholders? those disadvantaged? the public? in what way? – Efficacy? Effectiveness, Efficiency, Ethicality), Emancipation/critical perspective, Stakeholder consensus, Solving the “right” problem, Artefact effectiveness, Relation to existing literature, Practical significance, Theoretical significance.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
         <IRI>#ObjectivistMethodology</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Objectivism is optimistic, holding that the universe is open to human achievement and happiness and that each person has within him the ability to live a rich, fulfilling, independent life.</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A subclass of methodology. Objectivism is optimistic, holding that the universe is open to human achievement and happiness and that each person has within him the ability to live a rich, fulfilling, independent life.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
-        <IRI>#Output</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">What are the deliverables at each stage and at the end?</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
-        <IRI>#Paradigm</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Science vs Systems, Objectivist vs Subjectivist Ontology, Positivist vs Interpretive Epistemology (Same as for ISD)</Literal>
+        <IRI>#Observation</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A subclass of PrimaryDataCollection. observation is an active acquisition for acquiring primary data.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
@@ -1875,13 +1592,8 @@ relatively cheap to evaluate with real users in their real context</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
-        <IRI>#Philosophy</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">What is the ‘Weltanschauung’ or essence of its approach?</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
-        <IRI>#Practice</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a framework element including background, user base, and participants.</Literal>
+        <IRI>#PrimaryDataCollection</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A specialisation of data collection. primary data are also known as raw data which is collected from the source. in DSR, a large number of data need to be collected to monitor the process of artefact development.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
@@ -1891,42 +1603,38 @@ relatively cheap to evaluate with real users in their real context</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
         <IRI>#ProblemAnalysis</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Says what is. No causal relationships. No predictions are made.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
-        <IRI>#ProblemDefinition</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">the definition of the problem</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A subclass of problem. problem analysis aims to analyse the problems.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
         <IRI>#ProblemElicitation</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a way to get or produce the reason of the problem, especially information or a reaction:</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a specialisation of problem. problem elicitation means a way to get or produce the reason of the problem, especially information or a reaction:</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#ProcessArtefact</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Process: Logical (e.g. methodology, algorithm)</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
-        <IRI>#Product</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">What do methodology purchasers get for their money?</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A subclass of artefact. an artefact can be represented as a process
+Process: Logical (e.g. methodology, algorithm)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#ProductArtefct</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Product: Physical (e.g. chair) or logical (e.g. diagramming language)</Literal>
+        <IRI>#ProductArtefact</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A subclass of artefact. The artefact can be designed as a product (physical) e.g. computer.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#PureTechnical</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Purely technical relates to the Computational view</Literal>
+        <IRI>#PureTechnicalArtefact</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A specialisation of artefact. Purely technical relates to the Computational view. a subclass of artefact.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
         <IRI>#PurelyTechnical</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">pure technical strategy</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A subclass of evaluation strategy. This concept focuses on pure technical strategy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Purpose</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The reason of why you do something or why something exists. In DSR, the purpose describes the purpose of evaluation, design .etc.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
@@ -1934,18 +1642,25 @@ relatively cheap to evaluate with real users in their real context</Literal>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Qualitative/Interpretive methods are good for identifying problems, areas for improvement, and suggestions.
 Building, refining, or adding to a problem theory by adding aspects relating to understanding the problem to be solved
 Building, refining, or adding to a design theory by adding aspects to the general requirements
-Building refining, or adding to a design theory by improving/adding new components/features to the general design</Literal>
+Building refining, or adding to a design theory by improving/adding new components/features to the general design
+this evaluation metric can be used in summative evaluation and formative evaluation.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
         <IRI>#QuantitativeMethod</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Quantitative Methods are good for measuring utility or average satisfaction. 
-Giving indication of sufficient utility for all or part(s) of a design theory</Literal>
+Giving indication of sufficient utility for all or part(s) of a design theory
+this evaluation metric can be used in summative evaluation and formative evaluation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Questionnaire</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A subclass of PrimaryDataCollection. Questionnaire is research instrument of a series of questions for gathing data from respondents.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
         <IRI>#QuickAndSimple</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">used in small and simple construction of design</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A subclass of evaluation strategy. This strategy usually used in small and simple construction of design.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
@@ -1956,60 +1671,80 @@ Rigor sense 2: Establishing effectiveness, i.e. that the artefact (instantiation
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#RiskAnalysis</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A subclass of risk management. classes of risk identify the types of risk.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
         <IRI>#RiskManagement</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Risk Management is identification and response to potential problems with sufficient lead time to avoid a crisis. Thus Risk Management is proactive.</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A subclass of evaluation. Risk management is an essential part of the evaluation. Risk Management is identification and response to potential problems with sufficient lead time to avoid a crisis. Thus, Risk Management is proactive.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#RiskTreatment</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A subclass of risk managemet. Risk treatment provides several solutions for reducing risk.  in DSR, risk treatment is essential for evaluation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#SafetyCritical</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A specialisation of artefact. this class describe the artefact which is safety critical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#SecondaryDataCollection</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A secondary data refers to data which is collected by someone who is someone other than the user. in DSR, raw data could not be useful for guiding the process of artefact development. Thus, secondary data need to be collected.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Self-Insure</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">means that you accept the consequences of the risk by dedicating resources toward future risk occurrence; thus you are actively prepared if the risk materialises</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A subclass of RiskTreatment. Self-Insure means that you accept the consequences of the risk by dedicating resources toward future risk occurrence; thus you are actively prepared if the risk materialises</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Self-protect</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">means that you apply practices that prevent risks from having an impact (or from occurring)</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A subclass of RiskTreatment. Self-protect means that you apply practices that prevent risks from having an impact (or from occurring)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#SocioTechnical</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Socio-Technical relates to the Tool, Proxy, and especially Ensemble views of the IT artefact</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A subclass of artefact. Socio-Technical relates to the Tool, Proxy, and especially Ensemble views of the IT artefact.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
         <IRI>#Stakeholder</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a person or group of people who own a share artefact</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a subclass of person, in DSR, stakeholder describes a person or group of people who own a share artefact</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
         <IRI>#StakeholderAnalysis</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">analysis the problem from the aspect of stakeholder</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A specialisation of the technique used in problem analysis. analysing the problem from the aspect of stakeholder.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
         <IRI>#SubjectivistMethodology</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Subjectivism is the doctrine that &quot;our own mental activity is the only unquestionable fact of our experience.&quot;,[1] instead of shared or communal, and that there is no external or objective truth.</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A subclass of methodology. Subjectivism is the doctrine that &quot;our own mental activity is the only unquestionable fact of our experience.&quot;, instead of shared or communal, and that there is no external or objective truth.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
         <IRI>#SummativeEvaluation</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Evaluates the “final” artefact</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A subclass of evaluation. SummativeEvaluation evaluates the “final” artefact.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
         <IRI>#TechnicalRiskAndEfficacy</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">IF the major design risk is technically oriented
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A subclass of evaluation strategy. This strategy used in if the major design risk is technically oriented
 and/or
-IF it is very expensive to evaluate with real users and real systems in the real setting</Literal>
+IF it is very expensive to evaluate with real users and real systems in the real setting.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
         <IRI>#Technique</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">What techniques are used in the methodology?</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The way of doing an activity that needs skill. in DSR, many activities need to use techniques to achieve the purpose.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
         <IRI>#Theory</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a theory is a set of accepted principles or concepts which can be used for guiding instruct activities.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A theory is a set of accepted principles or concepts which can be used for guiding instruct activities.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
@@ -2019,12 +1754,7 @@ IF it is very expensive to evaluate with real users and real systems in the real
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Transfer</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">means that you distribute all or part of the risk to someone else, e.g. collaboration on project</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
-        <IRI>#UserBase</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Numbers and types of DSR methodology users (Use citations as a surrogate)</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A subclass of RiskTreatment. Transfer means that you distribute all or part of the risk to someone else, e.g. collaboration on project</Literal>
     </AnnotationAssertion>
 </Ontology>
 
