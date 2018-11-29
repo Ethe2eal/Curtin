@@ -12,6 +12,10 @@
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Author: Manliang Zhang</Literal>
+    </Annotation>
     <Declaration>
         <ObjectProperty IRI="#CorresponseTo"/>
     </Declaration>
@@ -98,9 +102,6 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#Explains"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Rigor"/>
     </Declaration>
     <Declaration>
         <Class IRI="#GoalModelling"/>
@@ -314,6 +315,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#PrimaryDataCollection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rigour"/>
     </Declaration>
     <Declaration>
         <Class IRI="#CausalAnalysis"/>
@@ -620,7 +624,7 @@
         <Class IRI="#EvaluationStrategy"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Rigor"/>
+        <Class IRI="#Rigour"/>
         <Class IRI="#EvaluationPurpose"/>
     </SubClassOf>
     <SubClassOf>
@@ -1664,10 +1668,10 @@ this evaluation metric can be used in summative evaluation and formative evaluat
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
-        <IRI>#Rigor</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Research, including DSR, should be rigorous. 
-Rigor sense 1: Establishing efficacy, i.e. that it is the artefact (instantiation) that causes a desired improvement (and only the artefact, not some confounding variable or circumstance)
-Rigor sense 2: Establishing effectiveness, i.e. that the artefact (instantiation) works in a real situation (despite organisational complications, unanticipated human behavioural responses, etc.)</Literal>
+        <IRI>#Rigour</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Research, including DSR, should be rigourous. 
+Rigour sense 1: Establishing efficacy, i.e. that it is the artefact (instantiation) that causes a desired improvement (and only the artefact, not some confounding variable or circumstance)
+Rigour sense 2: Establishing effectiveness, i.e. that the artefact (instantiation) works in a real situation (despite organisational complications, unanticipated human behavioural responses, etc.)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
